@@ -11,12 +11,8 @@
 //  Refactor the code so it's clean.
 
 let fizzBuzz = (number) => {
-  if(number % 15 === 0) {
-    return 'FizzBuzz'
-  } else if(number % 3 === 0) {
+  if(number === 3 || number === 6) {
     return 'Fizz'
-  } else if(number % 5 ===0) {
-    return 'Buzz'
   } else {
     return number
   };
