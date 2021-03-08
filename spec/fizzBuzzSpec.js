@@ -52,11 +52,11 @@ describe('bigBuzz', function() {
     'Fizz',     79,     'Buzz', 'Fizz',     82,     83,
     'Fizz',     'Buzz', 86,     'Fizz',     88,     89,
     'FizzBuzz', 91,     92,     'Fizz',     94,     'Buzz',
-    'Fizz',     97,     98,     'Fizz'
+    'Fizz',     97,     98,     'Fizz',     'Buzz'
   ]
 
   it('does fizzBuzz from 0 to 100', function() {
-    let oneToOneHundred = Array.from(Array(100).keys());
+    let oneToOneHundred = Array.from(Array(101).keys());
     expect(bigBuzz(oneToOneHundred)).toEqual(fizzBuzz100)
   });
 });
