@@ -10,6 +10,6 @@
 //  Write FizzBuzz in JavaScript, fully test-driven
 //  Refactor the code so it's clean.
 
-// let fizzBuzz = (number) => {
-
-// };
+let fizzBuzz = (number) => {
+    return number
+};
