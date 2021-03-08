@@ -15,4 +15,10 @@ describe('fizzBuzz', function() {
     expect(fizzBuzz(12)).toBe('Fizz')
     expect(fizzBuzz(9)).toBe('Fizz')
   })
+
+  it('returns "Buzz" when the number is divisible by 5', function() {
+    expect(fizzBuzz(5)).toBe('Buzz')
+    expect(fizzBuzz(10)).toBe('Buzz')
+    expect(fizzBuzz(20)).toBe('Buzz')
+  })
 });
