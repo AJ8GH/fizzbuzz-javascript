@@ -9,5 +9,10 @@ describe('fizzBuzz', function() {
 
   it('returns "Fizz" when the number is 6', function() {
     expect(fizzBuzz(6)).toBe('Fizz')
+  });
+
+  it('returns "Fizz" when the number is divisible by 3', function() {
+    expect(fizzBuzz(12)).toBe('Fizz')
+    expect(fizzBuzz(9)).toBe('Fizz')
   })
 });
