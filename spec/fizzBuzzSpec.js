@@ -1,4 +1,6 @@
 describe('fizzBuzz', function() {
+  let fizzBuzz = require('../lib/fizzBuzz')
+
   it('returns the number when not divisible by 3 or 5', function() {
     expect(fizzBuzz(1)).toBe(1)
   });
@@ -29,6 +31,9 @@ describe('fizzBuzz', function() {
 });
 
 describe('bigBuzz', function() {
+  let fizzBuzz = require('../lib/fizzBuzz')
+  let bigBuzz = require('../lib/bigBuzz')
+
   it('does fizz buzz on arrays', function() {
     expect(bigBuzz([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toEqual(
       [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz']
